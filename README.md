@@ -2,7 +2,7 @@
 
 An AI-powered version of the classic Flappy Bird game — built using Python, Pygame, and the NEAT (NeuroEvolution of Augmenting Topologies) algorithm. Watch an AI learn to play Flappy Bird from scratch, evolving smarter birds over generations without any human input.
 
-
+![1_yuq6P5aeqkSQKh3voMhAVQ-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e0f4aa9d-bdb5-46c9-a4bc-705a9f1999b6)
 
 ## Features
 
@@ -10,6 +10,9 @@ An AI-powered version of the classic Flappy Bird game — built using Python, Py
 - AI agent trained using NEAT to play the game
 - Real-time training and evolution visualization
 - Saves the best performing genome for testing
+
+![1_IoC9YoinhUovyVajlcL-Fg](https://github.com/user-attachments/assets/9f1f2696-21b5-430c-a630-16d47dbecb3f)
+
 
 ## Requirements
 
