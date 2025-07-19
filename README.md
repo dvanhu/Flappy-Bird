@@ -11,9 +11,6 @@ An AI-powered version of the classic Flappy Bird game — built using Python, Py
 - Real-time training and evolution visualization
 - Saves the best performing genome for testing
 
-![1_IoC9YoinhUovyVajlcL-Fg](https://github.com/user-attachments/assets/9f1f2696-21b5-430c-a630-16d47dbecb3f)
-
-
 ## Requirements
 
 - Python 3.x
@@ -53,6 +50,8 @@ The file `config-feedforward.txt` contains NEAT settings such as population size
   - Distance to the next bottom pipe
 - The network outputs whether the bird should jump or not.
 - A fitness function rewards birds that survive longer.
+![1_IoC9YoinhUovyVajlcL-Fg](https://github.com/user-attachments/assets/9f1f2696-21b5-430c-a630-16d47dbecb3f)
+
 
 ## Project Structure
 
