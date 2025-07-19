@@ -64,4 +64,35 @@ neat-flappy-bird/
 ├── imgs/                     # Game assets
 └── README.md                 # Project documentation
 ```
+## This mind map clearly outlines the Flappy Bird project structure, grouping components into:
+<img width="1536" height="1024" alt="ChatGPT Image Jul 20, 2025, 01_38_05 AM" src="https://github.com/user-attachments/assets/2ab18781-130b-4cc7-8e9c-8a1f76a13714" />
 
+- Pygame Setup for rendering and events
+- Game Objects (OOP) like Bird, Pipe, and Floor
+- Game Configuration for adjusting gameplay
+- Game Logic for collisions, scoring, and the main loop
+
+It's clean, color-coded, and ideal for organizing development or explaining your codebase.
+
+## Collision Detection in Flappy Bird
+In Flappy Bird, detecting when the bird crashes into a pipe or hits the ground is crucial to ending the game. There are two main ways to handle this in Pygame:
+<img width="1920" height="1080" alt="photo-collage png" src="https://github.com/user-attachments/assets/628b9fd2-ca40-49d1-aa91-29aa1b5b3b92" />
+
+1. Rectangle Collision Detection
+This uses bounding rectangles to check for overlap:
+
+```bird_rect.colliderect(pipe_rect)```
+
+- Fast and simple, but may detect a collision even when pixels don’t truly overlap.
+- Useful for rough hitbox-based games.
+
+2. Pixel Perfect Collision Detection
+This checks actual non-transparent pixels using masks:
+
+```bird_mask.overlap(pipe_mask, offset)```
+
+- More accurate: Only detects collisions when visible pixels touch.
+- Recommended for games with irregular-shaped sprites like Flappy Bird.
+
+Edge Collisions
+A collision also occurs if the bird touches the top of the screen or the ground.
